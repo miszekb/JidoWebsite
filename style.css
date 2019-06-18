@@ -1,0 +1,63 @@
+body {
+    background-color: #D1CBA1;
+}
+
+.main_logo {
+    box-shadow: 0;
+    transition: box-shadow 0.2s;
+    border-radius: 15px;
+}
+
+.main_logo:hover {
+    box-shadow: 0 0 3px #515151;;
+}
+
+.button_container {
+    padding-top: 10%;
+    align-content: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 10%;
+
+}
+
+.logo_container {
+    margin-bottom: 2%;
+}
+
+.button {
+    display: inline-block;
+    padding-right: 3%;
+    padding-left: 3%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-size: 23px;
+    background-color: #F5D498;
+    border-radius: 15px;
+    margin: 1%;
+}
+
+a:visited {
+    color: black;
+}
+
+
+.button:hover
+{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 10px 10px #f9eeb6;
+}
+
+.main_container {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.content_container {
+    background-color: #FFF0E3;
+    padding: 3%;
+    margin-top: 1%;
+    border-radius: 15px;
+    font-size: 18px;
+}
