@@ -33,41 +33,26 @@ a {
 
 .button {
     display: inline-block;
-    padding-right: 5.1%;
-    padding-left: 5.1%;
-    padding-top: 0%;
-    padding-bottom: 0%;
-    font-size: 23px;
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    font-size: 35px;
     background-color: #F5D498;
     border-radius: 15px;
     margin: 1%;
+
 }
 
 a:visited {
     color: black;
 }
 
-iframe {
-    align-self: center;
-}
 
 .button:hover
 {
     transform: scale(1.1);
     box-shadow: 0px 0px 10px 10px #f9eeb6;
-}
-
-.image_container {
-    align-content: center;
-}
-
-.photo {
-    display:  inline-block;
-}
-
-.photo:hover {
-    transform: scale(1.05);
-    box-shadow: 0px 0px 5px 5px #f9eeb6;
 }
 
 .main_container {
