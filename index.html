@@ -30,10 +30,16 @@
              padającego światła i cieni o konkretnej porze dnia. Aby ją znaleźć musimy użyć zegarka, za pomocą którego 
              możemy płynnie zmieniać porę dnia a wraz z nią układ światła i cieni w pokoju.</p>
              <h2>Galeria</h2>
-             <div class="images_container">
-                <div class="photo"><a href="index.html"><img src="screenshots/screen1.PNG" width="250" height="150" /></a></div>
-                <div class="photo"><a href="index.html"><img src="screenshots/screen2.PNG" width="250" height="150" /></a></div>
-                <div class="photo"><a href="index.html"><img src="screenshots/screen3.PNG" width="250" height="150" /></a></div>
+           
+            <div class="main_photo"><img id="mainPhoto" src="screenshots/screen1.PNG" width="680" height="430" /></div>
+            </br>
+            <div class="images_container">
+                <div class="photo"><img id="photo1" class="image" onclick="imagePreview1()"  src="screenshots/screen1.PNG" width="220" height="130" /></div>
+                <div class="photo"><img id="photo2" class="image" onclick="imagePreview2()"  src="screenshots/screen2.PNG" width="220" height="130" /></div>
+                <div class="photo"><img id="photo3" class="image" onclick="imagePreview3()"  src="screenshots/screen3.PNG" width="220" height="130" /></div>
+                <div class="photo"><img id="photo4" class="image" onclick="imagePreview4()"  src="screenshots/screen4.PNG" width="220" height="130" /></div>
+                <div class="photo"><img id="photo5" class="image" onclick="imagePreview5()"  src="screenshots/screen4.PNG" width="220" height="130" /></div>
+                <div class="photo"><img id="photo6" class="image" onclick="imagePreview6()"  src="screenshots/screen4.PNG" width="220" height="130" /></div>
              </div>
              <h2>Zwiastun gry</h2>
              <iframe src="https://player.vimeo.com/video/342828560" width="650" height="500" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
@@ -41,5 +47,30 @@
 
         </div>
     </div>
+    <script>
+        function imagePreview1() {
+            document.getElementById("mainPhoto").src = "screenshots/screen1.PNG";
+
+        }
+        function imagePreview2() {
+            document.getElementById("mainPhoto").src = "screenshots/screen2.PNG";
+
+        }
+        function imagePreview3() {
+            document.getElementById("mainPhoto").src = "screenshots/screen3.PNG";
+
+        }
+        function imagePreview4() {
+            document.getElementById("mainPhoto").src = "screenshots/screen4.PNG";
+
+        }
+        function imagePreview5() {
+            document.getElementById("mainPhoto").src = "screenshots/screen4.PNG";
+
+        }
+        function imagePreview6() {
+            document.getElementById("mainPhoto").src = "screenshots/screen4.PNG";
+        }
+    </script>
     </body>
 </html>
