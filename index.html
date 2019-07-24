@@ -4,6 +4,8 @@
 <link rel="stylesheet" media="(orientation: portrait)" href="mobile.css">
 <title>Jido: The Way Of Time</title>
 <link rel="stylesheet" href="style.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript" src="gallery.js"></script>
 </head>
     <body>
     <div class="main_container">
@@ -33,44 +35,12 @@
            
             <div class="main_photo"><img id="mainPhoto" src="screenshots/screen1.PNG" width="680" height="430" /></div>
             </br>
-            <div class="images_container">
-                <div class="photo"><img id="photo1" class="image" onclick="imagePreview1()"  src="screenshots/screen1.PNG" width="220" height="130" /></div>
-                <div class="photo"><img id="photo2" class="image" onclick="imagePreview2()"  src="screenshots/screen2.PNG" width="220" height="130" /></div>
-                <div class="photo"><img id="photo3" class="image" onclick="imagePreview3()"  src="screenshots/screen3.PNG" width="220" height="130" /></div>
-                <div class="photo"><img id="photo4" class="image" onclick="imagePreview4()"  src="screenshots/screen4.PNG" width="220" height="130" /></div>
-                <div class="photo"><img id="photo5" class="image" onclick="imagePreview5()"  src="screenshots/screen5.jpg" width="220" height="130" /></div>
-                <div class="photo"><img id="photo6" class="image" onclick="imagePreview6()"  src="screenshots/screen6.jpg" width="220" height="130" /></div>
-             </div>
-             <h2>Zwiastun gry</h2>
-             <iframe src="https://player.vimeo.com/video/342828560" width="650" height="500" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-             <h5 align="bottom">All Rights Reserved @CleverCapybara</h5>
+            <div id="imagesContainer" class="imagesContainer"></div>
+            <h2>Zwiastun gry</h2>
+            <iframe src="https://player.vimeo.com/video/342828560" width="650" height="500" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+            <h5 align="bottom">All Rights Reserved @CleverCapybara</h5>
 
         </div>
     </div>
-    <script>
-        function imagePreview1() {
-            document.getElementById("mainPhoto").src = "screenshots/screen1.PNG";
-
-        }
-        function imagePreview2() {
-            document.getElementById("mainPhoto").src = "screenshots/screen2.PNG";
-
-        }
-        function imagePreview3() {
-            document.getElementById("mainPhoto").src = "screenshots/screen3.PNG";
-
-        }
-        function imagePreview4() {
-            document.getElementById("mainPhoto").src = "screenshots/screen4.PNG";
-
-        }
-        function imagePreview5() {
-            document.getElementById("mainPhoto").src = "screenshots/screen5.jpg";
-
-        }
-        function imagePreview6() {
-            document.getElementById("mainPhoto").src = "screenshots/screen6.jpg";
-        }
-    </script>
     </body>
 </html>
